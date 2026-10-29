@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: news-portal
+    env: php
+    buildCommand: ""
+    startCommand: "heroku-php-apache2"
